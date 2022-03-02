@@ -6,3 +6,4 @@ Flask-SQLAlchemy
 flask-login
 PyPDF2
 borb
+si-prefix
