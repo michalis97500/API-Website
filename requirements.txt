@@ -1,0 +1,8 @@
+gspread
+oauth2client
+python_binance
+flask
+Flask-SQLAlchemy
+flask-login
+PyPDF2
+borb
