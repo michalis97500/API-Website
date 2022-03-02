@@ -9,13 +9,18 @@ def run():
     app.run()
 
 
-def runback():
+def runmain():
     backend.mainloop()
+    
+def runsecondary():
+    backend.secondaryloop()
 
 
 def keep_alive():
     t = Thread(target=run)
-    m = Thread(target=runback)
+    m = Thread(target=runmain)
+    s = Thread(target=runsecondary)
+    s.start()
     t.start()
     m.start()
 
